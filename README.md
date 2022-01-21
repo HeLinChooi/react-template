@@ -1,35 +1,22 @@
 ## About
 
-This front end template created solely for faster bootstrapping of front-end project.
+HealthPath utilizes NFT and IPFS technologies to ensure a complete, secured and fully transparent medical journey for you.
 
 ## Setup
 
-### Packages
-
 ```
-npm install @mui/material clsx @craco/craco
+npm install
 ```
 
-_@mui/material_  
-The out-of-the-box components will ease the development process a lot.
-
-_clsx_  
-Utility package to combine styles
-
-_@craco/craco_  
-Used to simplify importing in this project (by using `craco.config.js`)
-
-### Formatting
+Then
 
 ```
-npx husky-init
-npm install --save-dev pretty-quick prettier
-npx husky set .husky/pre-commit "npx pretty-quick --staged"
+npm start
 ```
 
-Used to format every files committed to maintain the readability of the code.
+to start the server and develop
 
-## Additonal folder/files compared to create-react-app
+## Note: Additonal folder/files compared to create-react-app
 
 - `.env`
 - `craco.config.js`
